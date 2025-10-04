@@ -45,5 +45,4 @@ jobs:
     
     - name: Test CLI entry point
       run: |
-        storygen --help This is a basic workflow that is manually triggered
-
+        storygen --help
