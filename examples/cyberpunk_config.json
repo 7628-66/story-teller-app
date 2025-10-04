@@ -1,0 +1,23 @@
+{
+  "seed": 7,
+  "length": "flash",
+  "themes": "memory,loss",
+  "elements": "data shard,neon alley",
+  "pov": "first",
+  "tense": "present",
+  "ending": "open-ended",
+  "setting": "neon-drenched megacity",
+  "genre": "science fiction",
+  "tone": "noir",
+  "output": "story",
+  "no_model": true,
+  "deterministic": true,
+  "arc_style": "steady climb",
+  "protagonist_age": "adult",
+  "protagonist_role": "outsider",
+  "time_period": "futuristic",
+  "tech_level": "futuristic",
+  "magic_system": "none",
+  "weather_mood": "rain-slick",
+  "cultural_conflict": "corporate control vs street autonomy"
+}

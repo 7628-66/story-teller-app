@@ -1,0 +1,22 @@
+{
+  "hook": [
+    "In {setting}, {protagonist} {verb} near {element}, sensing the weight of {theme}.",
+    "The {setting} whispered secrets as {protagonist} discovered {element}, bound to {theme}.",
+    "Everyone in {setting} spoke of {element}, but only {protagonist} knew its tie to {theme}."
+  ],
+
+  "complication": [
+    "{protagonist}'s {flaw} drives a wedge between them and {ally}, complicating the path to {theme}.",
+    "{antagonist} gains power through {element}, threatening to undo {protagonist}'s hopes of {theme}.",
+    "Whispers spread across {setting} that {element} hides a dangerous truth, forcing {protagonist} to act."
+  ],
+
+  "filler": [
+    "Shadows stretched across {setting}, carrying murmurs of {theme}.",
+    "A cold wind swept past {protagonist}, heavy with memories of {theme}.",
+    "In the distance, {element} glimmered faintly — a reminder of {theme}.",
+    "Every corner of {setting} seemed to echo with {theme}.",
+    "{protagonist} touched {element}, and a forgotten story stirred inside.",
+    "Even silence in {setting} carried the weight of {theme}."
+  ]
+}

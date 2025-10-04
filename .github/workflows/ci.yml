@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package (dev)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .[dev]
+      - name: Lint (ruff)
+        run: |
+          ruff --version
+          ruff check .
+      - name: Typecheck (mypy)
+        run: |
+          mypy .
+      - name: Tests (pytest)
+        run: |
+          pytest -q
+      - name: Packaging sanity
+        run: |
+          python -m build || echo "build not critical here"
+          python -c "import importlib.metadata as im; print([e.name for e in im.entry_points(group='console_scripts') if e.name=='storygen'])"

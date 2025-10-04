@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "rain-drenched cyberpunk city": {
+      "description": "A neon-lit sprawl of skyscrapers, perpetual rain, and corporate surveillance.",
+      "rules": [
+        "Technology is advanced but controlled by megacorps",
+        "Magic is outlawed but whispered in alleys"
+      ],
+      "elements": ["neural implant", "data shard", "smog-choked street"],
+      "archetypes": {
+        "protagonist": {"name": "Kara", "want": "freedom", "need": "trust", "flaw": "paranoia"},
+        "antagonist": {"name": "Director Voss", "goal": "total control"}
+      },
+      "factions": [
+        {"name": "The Syndicate", "motive": "black-market freedom"},
+        {"name": "OmniCorp", "motive": "profit and obedience"}
+      ],
+      "artifacts": [
+        {"name": "The Black Circuit", "power": "rewrite memories"},
+        {"name": "Ghost Key", "power": "unlock hidden networks"}
+      ],
+      "culture": {
+        "customs": ["neon tattoos as identity", "rainwater as ritual cleansing"],
+        "values": ["loyalty to the crew", "information as currency"],
+        "conflicts": ["AI rebellion", "class division"],
+        "cuisine": ["nutri-sludge packets", "illegal real coffee"],
+        "folklore": ["The Ghost in the Net whispers warnings"],
+        "festivals": ["Neon Day — the blackout when the lights are off for one night"]
+      }
+    },
+
+    "enchanted forest kingdom": {
+      "description": "An ancient woodland where magic breathes through roots and rivers.",
+      "rules": [
+        "Magic requires sacrifice",
+        "The forest protects itself"
+      ],
+      "elements": ["talking stag", "moonlit glade", "forgotten crown"],
+      "archetypes": {
+        "protagonist": {"name": "Elara", "want": "belonging", "need": "courage", "flaw": "doubt"},
+        "antagonist": {"name": "The Hollow Queen", "goal": "eternal dominion"}
+      },
+      "factions": [
+        {"name": "The Druids’ Circle", "motive": "preserve balance"},
+        {"name": "Iron Legion", "motive": "conquer and clear the forest"}
+      ],
+      "artifacts": [
+        {"name": "Heartwood Staff", "power": "heal or destroy"},
+        {"name": "Crown of Thorns", "power": "enslave the will of others"}
+      ],
+      "culture": {
+        "customs": ["leave offerings at old trees", "songs carry spells"],
+        "values": ["harmony with nature", "sacrifice for the many"],
+        "conflicts": ["man vs. wild", "love vs. duty"],
+        "cuisine": ["berry wines", "herbal stews"],
+        "folklore": ["The First Stag who walks in moonlight"],
+        "festivals": ["Moon’s Blessing — when spirits dance with mortals"]
+      }
+    },
+
+    "quaint English village": {
+      "description": "A cozy hamlet with ivy cottages, gossiping neighbors, and tea shops.",
+      "rules": [
+        "Secrets hide behind polite smiles",
+        "Justice arrives gently, not violently"
+      ],
+      "elements": ["old teapot", "hidden diary", "mysterious key"],
+      "archetypes": {
+        "protagonist": {"name": "Agatha", "want": "truth", "need": "companionship", "flaw": "nosiness"},
+        "antagonist": {"name": "Mr. Pritchard", "goal": "cover up scandal"}
+      },
+      "factions": [
+        {"name": "The Garden Club", "motive": "keep appearances tidy"},
+        {"name": "Pub Regulars", "motive": "know all the gossip"}
+      ],
+      "artifacts": [
+        {"name": "Silver Locket", "power": "reveals hidden lineage"}
+      ],
+      "culture": {
+        "customs": ["weekly tea at the vicar’s house", "flower shows as status contests"],
+        "values": ["politeness", "community reputation"],
+        "conflicts": ["tradition vs. change", "outsiders vs. locals"],
+        "cuisine": ["scones with clotted cream", "strong black tea"],
+        "folklore": ["The Grey Lady who haunts the churchyard"],
+        "festivals": ["Harvest Fayre — a celebration of the year’s end"]
+      }
+    }
+  }
+}

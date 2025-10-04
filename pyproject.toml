@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "storygen"
+version = "0.1.0"
+description = "Offline-friendly, AI-assisted story generator with CLI and Streamlit UI"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["writing", "story", "generator", "worldbuilding", "creative-writing"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+  "Topic :: Artistic Software",
+  "Topic :: Text Processing",
+]
+dependencies = []
+
+[project.optional-dependencies]
+export = [
+  "python-docx>=0.8.11",
+  "ebooklib>=0.18",
+]
+ui = [
+  "streamlit>=1.35",
+]
+dev = [
+  "rich>=13",
+  "questionary>=2",
+  "pytest>=7",
+  "ruff>=0.5.0",
+  "mypy>=1.8.0",
+]
+
+[project.scripts]
+storygen = "story_app:main"
+
+[tool.setuptools]
+py-modules = ["story_app", "streamlit_app"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+strict = false
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true

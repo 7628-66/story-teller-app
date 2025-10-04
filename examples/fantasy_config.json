@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "length": "short",
+  "themes": "destiny,found family",
+  "elements": "ancient amulet,whispering forest",
+  "pov": "third",
+  "tense": "past",
+  "ending": "bittersweet",
+  "setting": "mist-laden valley kingdom",
+  "genre": "low fantasy noir",
+  "tone": "gritty",
+  "output": "both",
+  "no_model": true,
+  "deterministic": true,
+  "arc_style": "fall-rise",
+  "protagonist_age": "teen",
+  "protagonist_role": "reluctant hero",
+  "time_period": "medieval",
+  "tech_level": "primitive",
+  "magic_system": "ritualistic",
+  "weather_mood": "fog-laden",
+  "cultural_conflict": "old gods vs new order"
+}
